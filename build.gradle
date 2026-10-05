@@ -1,0 +1,172 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.143'
+    id 'idea'
+}
+
+tasks.named('wrapper', Wrapper).configure {
+    distributionType = Wrapper.DistributionType.BIN
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    maven { url = 'https://maven.createmod.net' }
+    maven { url = 'https://api.modrinth.com/maven' }
+    maven { url = 'https://thedarkcolour.github.io/KotlinForForge/' }
+    mavenCentral()
+}
+
+neoForge {
+    version = project.neo_version
+
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+}
+
+if (providers.gradleProperty('includeGameTests').map { it.toBoolean() }.getOrElse(false)) {
+    sourceSets.main.java.srcDir 'src/gameTest/java'
+    sourceSets.main.resources.srcDir 'src/gameTest/resources'
+}
+
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+}
+
+dependencies {
+    // The regular Create artifact carries the same jar-in-jar companions as a
+    // player's installation (Ponder, Flywheel and Registrate). Using it here
+    // keeps runServer/runClient representative without maintaining a second
+    // dependency graph for Create's internals.
+    implementation("com.simibubi.create:create-${minecraft_version}:${create_version}") {
+        // Create's published jar already embeds its required companions. Do
+        // not resolve optional integrations (JEI, FTB, JourneyMap, etc.) into
+        // this small project just to run the core logistics code.
+        transitive = false
+    }
+    implementation("maven.modrinth:${cobblemon_project}:${cobblemon_version}")
+    // Cobblemon's public storage/entity API exposes Kotlin collection marker
+    // types at compile time; keep KotlinForForge as a normal dependency.
+    implementation("maven.modrinth:${kotlinforforge_project}:${kotlinforforge_version}")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.4.0")
+}
+
+var generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
+    var replaceProperties = [
+            minecraft_version: minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version: neo_version,
+            loader_version_range: loader_version_range,
+            mod_id: mod_id,
+            mod_name: mod_name,
+            mod_license: mod_license,
+            mod_version: mod_version,
+            mod_authors: mod_authors,
+            mod_description: mod_description,
+            create_version_range: create_version_range,
+            cobblemon_version_range: cobblemon_version_range,
+            kotlinforforge_version_range: kotlinforforge_version_range
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from 'src/main/templates'
+    into 'build/generated/sources/modMetadata'
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+// Compilation alone cannot catch an unrecognizable mod JAR. Make the layout
+// and template expansion part of every build, including the distributed JAR.
+var verifyModJar = tasks.register('verifyModJar') {
+    group = 'verification'
+    description = 'Checks the packaged NeoForge manifest and Minecraft resource paths.'
+    dependsOn tasks.named('jar')
+    def archiveFile = tasks.named('jar', Jar).flatMap { it.archiveFile }
+    inputs.file(archiveFile)
+    doLast {
+        new java.util.zip.ZipFile(archiveFile.get().asFile).withCloseable { archive ->
+            def metadata = archive.getEntry('META-INF/neoforge.mods.toml')
+            if (metadata == null || archive.getEntry('neoforge.mods.toml') != null) {
+                throw new GradleException('NeoForge metadata must be at META-INF/neoforge.mods.toml')
+            }
+            def text = archive.getInputStream(metadata).withCloseable { it.getText('UTF-8') }
+            if (text.contains('\u0024{') || !text.contains('modId="' + project.mod_id + '"')) {
+                throw new GradleException('Packaged NeoForge metadata has not been expanded correctly')
+            }
+            def lootPath = 'data/' + project.mod_id + '/loot_table/blocks/cobblemon_hub.json'
+            if (archive.getEntry(lootPath) == null) {
+                throw new GradleException('Missing Minecraft 1.21.1 Hub loot table: ' + lootPath)
+            }
+            def guiPath = 'assets/' + project.mod_id + '/textures/gui/hub.png'
+            def gui = archive.getEntry(guiPath)
+            if (gui == null) throw new GradleException('Missing Hub GUI texture: ' + guiPath)
+            archive.getInputStream(gui).withCloseable { stream ->
+                def image = javax.imageio.ImageIO.read(stream)
+                if (image == null || image.width != 512 || image.height != 360) {
+                    throw new GradleException('Hub GUI texture must be a 512x360 PNG')
+                }
+            }
+        }
+        logger.lifecycle('Verified NeoForge manifest and resource layout in {}', archiveFile.get().asFile.name)
+    }
+}
+tasks.named('check') { dependsOn verifyModJar }
+
+tasks.named('jar', Jar) {
+    from('LICENSE')
+    from('THIRD_PARTY_NOTICES.md')
+    from('third-party/Cobblemon-Magnemite-license.txt') {
+        into 'third-party'
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}

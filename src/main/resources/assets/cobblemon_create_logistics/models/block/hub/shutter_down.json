@@ -1,0 +1,85 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "hub_original_atlas": "cobblemon_create_logistics:block/hub_original_atlas",
+    "lamp": "cobblemon_create_logistics:block/lamp",
+    "worker_lens": "cobblemon_create_logistics:block/worker_lens",
+    "hub_port_v5": "cobblemon_create_logistics:block/hub_port_v5",
+    "hub_wood_v5": "cobblemon_create_logistics:block/hub_wood_v5",
+    "hub_ball_v5": "cobblemon_create_logistics:block/hub_ball_v5",
+    "create_brass_casing": "create:block/brass_casing",
+    "create_brass_block": "create:block/brass_block",
+    "particle": "#hub_original_atlas"
+  },
+  "elements": [
+    {
+      "from": [
+        3.1,
+        0.2,
+        3.1
+      ],
+      "to": [
+        12.9,
+        0.55,
+        12.9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.5,
+            2.125,
+            15.75,
+            2.25
+          ],
+          "texture": "#hub_original_atlas"
+        },
+        "east": {
+          "uv": [
+            14.5,
+            2.125,
+            15.75,
+            2.25
+          ],
+          "texture": "#hub_original_atlas"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            2.125,
+            15.75,
+            2.25
+          ],
+          "texture": "#hub_original_atlas"
+        },
+        "west": {
+          "uv": [
+            14.5,
+            2.125,
+            15.75,
+            2.25
+          ],
+          "texture": "#hub_original_atlas"
+        },
+        "up": {
+          "uv": [
+            4.75,
+            0.0625,
+            6.0,
+            1.3125
+          ],
+          "texture": "#hub_original_atlas"
+        },
+        "down": {
+          "uv": [
+            4.75,
+            0.0625,
+            6.0,
+            1.3125
+          ],
+          "texture": "#hub_original_atlas"
+        }
+      }
+    }
+  ]
+}

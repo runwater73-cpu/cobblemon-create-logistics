@@ -1,0 +1,1421 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "brass": "create:block/brass_block",
+    "casing": "create:block/brass_casing",
+    "wood": "minecraft:block/spruce_planks",
+    "particle": "create:block/brass_block",
+    "pokemon": "cobblemon_create_logistics:block/magnemite_native"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "name": "brass_plate"
+    },
+    {
+      "from": [
+        2,
+        2.01,
+        2
+      ],
+      "to": [
+        14,
+        2.12,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        }
+      },
+      "name": "wood_deck"
+    },
+    {
+      "from": [
+        0,
+        2,
+        0
+      ],
+      "to": [
+        16,
+        2.25,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            2,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            2,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ]
+        }
+      },
+      "name": "north_rim"
+    },
+    {
+      "from": [
+        0,
+        2,
+        14
+      ],
+      "to": [
+        16,
+        2.25,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        }
+      },
+      "name": "south_rim"
+    },
+    {
+      "from": [
+        0,
+        2,
+        2
+      ],
+      "to": [
+        2,
+        2.25,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            2,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            2,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#casing",
+          "uv": [
+            2,
+            15.75,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#casing",
+          "uv": [
+            2,
+            15.75,
+            14,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ]
+        }
+      },
+      "name": "west_rim"
+    },
+    {
+      "from": [
+        14,
+        2,
+        2
+      ],
+      "to": [
+        16,
+        2.25,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#casing",
+          "uv": [
+            2,
+            15.75,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#casing",
+          "uv": [
+            2,
+            15.75,
+            14,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            2,
+            16,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            2,
+            16,
+            14
+          ]
+        }
+      },
+      "name": "east_rim"
+    },
+    {
+      "from": [
+        5.88,
+        4.03,
+        5.88
+      ],
+      "to": [
+        10.120000000000001,
+        8.27,
+        10.120000000000001
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            2.0,
+            4.0,
+            4.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            4.0,
+            4.0,
+            6.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            6.0,
+            4.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            2.0,
+            0.0,
+            4.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            4.0,
+            0.0,
+            6.0,
+            4.0
+          ]
+        }
+      },
+      "name": "native_magnemite_body_0"
+    },
+    {
+      "from": [
+        6.9399999999999995,
+        5.09,
+        5.8747
+      ],
+      "to": [
+        9.06,
+        7.21,
+        5.8947
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            8.0,
+            4.0,
+            9.0,
+            6.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            8.0,
+            4.0,
+            9.0,
+            6.0
+          ]
+        }
+      },
+      "name": "native_magnemite_eye_0"
+    },
+    {
+      "from": [
+        7.735,
+        5.885,
+        5.869400000000001
+      ],
+      "to": [
+        8.265,
+        6.415,
+        5.8894
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            4.0,
+            10.25,
+            4.5
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            4.0,
+            10.25,
+            4.5
+          ]
+        }
+      },
+      "name": "native_magnemite_pupil_0"
+    },
+    {
+      "from": [
+        7.47,
+        8.004999999999999,
+        7.47
+      ],
+      "to": [
+        8.53,
+        9.595,
+        8.53
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            9.5,
+            6.5,
+            10.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            6.5,
+            10.5,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            10.5,
+            6.5,
+            11.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            11.0,
+            6.5,
+            11.5,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            5.5,
+            10.5,
+            6.5
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            10.5,
+            5.5,
+            11.0,
+            6.5
+          ]
+        }
+      },
+      "name": "native_magnemite_nail_head_0"
+    },
+    {
+      "from": [
+        6.9399999999999995,
+        9.595,
+        6.9399999999999995
+      ],
+      "to": [
+        9.06,
+        10.125,
+        9.06
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            6.5
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            13.0,
+            6.0,
+            14.0,
+            6.5
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            14.0,
+            6.0,
+            15.0,
+            6.5
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            6.5
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            13.0,
+            4.0,
+            14.0,
+            6.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            14.0,
+            4.0,
+            15.0,
+            6.0
+          ]
+        }
+      },
+      "name": "native_magnemite_nail_head_1"
+    },
+    {
+      "from": [
+        7.205,
+        10.1303,
+        7.205
+      ],
+      "to": [
+        8.795,
+        10.1303,
+        7.225
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            13.0,
+            8.0,
+            13.75,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            13.0,
+            8.0,
+            13.75,
+            8.0
+          ]
+        }
+      },
+      "name": "native_magnemite_nail_head_2"
+    },
+    {
+      "from": [
+        6.0125,
+        4.03,
+        4.555
+      ],
+      "to": [
+        7.0725,
+        5.09,
+        5.085
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            8.0,
+            6.5,
+            8.25,
+            7.5
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            8.25,
+            6.5,
+            8.75,
+            7.5
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            8.75,
+            6.5,
+            9.0,
+            7.5
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            9.0,
+            6.5,
+            9.5,
+            7.5
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            8.25,
+            6.0,
+            8.75,
+            6.5
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            8.75,
+            6.0,
+            9.25,
+            6.5
+          ]
+        }
+      },
+      "name": "native_magnemite_nail_left_rotation_0"
+    },
+    {
+      "from": [
+        6.2775,
+        4.295,
+        5.085
+      ],
+      "to": [
+        6.8075,
+        4.825,
+        6.145
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            5.0,
+            10.5,
+            5.5
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            10.5,
+            5.0,
+            10.75,
+            5.5
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            10.75,
+            5.0,
+            11.25,
+            5.5
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            11.25,
+            5.0,
+            11.5,
+            5.5
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            10.5,
+            4.0,
+            10.75,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            10.75,
+            4.0,
+            11.0,
+            5.0
+          ]
+        }
+      },
+      "name": "native_magnemite_nail_left_rotation_1"
+    },
+    {
+      "from": [
+        8.9275,
+        4.03,
+        4.555
+      ],
+      "to": [
+        9.9875,
+        5.09,
+        5.085
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            12.5,
+            4.5,
+            12.25,
+            5.5
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            12.25,
+            4.5,
+            11.75,
+            5.5
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            11.75,
+            4.5,
+            11.5,
+            5.5
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            13.0,
+            4.5,
+            12.5,
+            5.5
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            12.25,
+            4.0,
+            11.75,
+            4.5
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            12.75,
+            4.0,
+            12.25,
+            4.5
+          ]
+        }
+      },
+      "name": "native_magnemite_nail_right_rotation_0"
+    },
+    {
+      "from": [
+        9.1925,
+        4.295,
+        5.085
+      ],
+      "to": [
+        9.7225,
+        4.825,
+        6.145
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            12.75,
+            7.5,
+            12.25,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            12.25,
+            7.5,
+            12.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            12.0,
+            7.5,
+            11.5,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            13.0,
+            7.5,
+            12.75,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            12.25,
+            6.5,
+            12.0,
+            7.5
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            12.5,
+            6.5,
+            12.25,
+            7.5
+          ]
+        }
+      },
+      "name": "native_magnemite_nail_right_rotation_1"
+    },
+    {
+      "from": [
+        5.085,
+        4.5600000000000005,
+        7.47
+      ],
+      "to": [
+        6.145,
+        7.74,
+        8.53
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            0.0,
+            1.0,
+            0.5,
+            4.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            0.5,
+            1.0,
+            1.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            1.0,
+            1.0,
+            1.5,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            1.5,
+            1.0,
+            2.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            0.5,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            1.0,
+            0.0,
+            1.5,
+            1.0
+          ]
+        }
+      },
+      "name": "native_magnemite_magnet_left_0"
+    },
+    {
+      "from": [
+        2.17,
+        6.68,
+        7.47
+      ],
+      "to": [
+        5.35,
+        7.74,
+        8.53
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            8.0,
+            1.0,
+            8.5,
+            2.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            8.5,
+            1.0,
+            10.0,
+            2.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            1.0,
+            10.5,
+            2.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            10.5,
+            1.0,
+            12.0,
+            2.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            8.5,
+            0.0,
+            10.0,
+            1.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            0.0,
+            11.5,
+            1.0
+          ]
+        }
+      },
+      "name": "native_magnemite_magnet_left_1"
+    },
+    {
+      "from": [
+        2.17,
+        4.5600000000000005,
+        7.47
+      ],
+      "to": [
+        5.35,
+        5.62,
+        8.53
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            12.0,
+            1.0,
+            12.5,
+            2.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            12.5,
+            1.0,
+            14.0,
+            2.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            14.0,
+            1.0,
+            14.5,
+            2.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            14.5,
+            1.0,
+            16.0,
+            2.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            12.5,
+            0.0,
+            14.0,
+            1.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            14.0,
+            0.0,
+            15.5,
+            1.0
+          ]
+        }
+      },
+      "name": "native_magnemite_magnet_left_2"
+    },
+    {
+      "from": [
+        9.855,
+        4.5600000000000005,
+        7.47
+      ],
+      "to": [
+        10.915,
+        7.74,
+        8.53
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            7.5,
+            1.0,
+            7.0,
+            4.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            7.0,
+            1.0,
+            6.5,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            6.5,
+            1.0,
+            6.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            8.0,
+            1.0,
+            7.5,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            7.0,
+            0.0,
+            6.5,
+            1.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            7.5,
+            0.0,
+            7.0,
+            1.0
+          ]
+        }
+      },
+      "name": "native_magnemite_magnet_right_0"
+    },
+    {
+      "from": [
+        10.65,
+        6.68,
+        7.47
+      ],
+      "to": [
+        13.83,
+        7.74,
+        8.53
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            10.5,
+            3.0,
+            10.0,
+            4.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            3.0,
+            8.5,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            8.5,
+            3.0,
+            8.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            12.0,
+            3.0,
+            10.5,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            2.0,
+            8.5,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            11.5,
+            2.0,
+            10.0,
+            3.0
+          ]
+        }
+      },
+      "name": "native_magnemite_magnet_right_1"
+    },
+    {
+      "from": [
+        10.65,
+        4.5600000000000005,
+        7.47
+      ],
+      "to": [
+        13.83,
+        5.62,
+        8.53
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            14.5,
+            3.0,
+            14.0,
+            4.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            14.0,
+            3.0,
+            12.5,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            12.5,
+            3.0,
+            12.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            16.0,
+            3.0,
+            14.5,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            14.0,
+            2.0,
+            12.5,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            15.5,
+            2.0,
+            14.0,
+            3.0
+          ]
+        }
+      },
+      "name": "native_magnemite_magnet_right_2"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.gradle/
+.idea/
+build/
+run/
+src/generated/
+tools/__pycache__/
+*.class
+*.log
+*.jar
+*.sha256
+
+# Working design iterations and machine-specific render tooling.
+/art/
+/docs/
+/models/
+/tools/
+
+# IDE and OS metadata.
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,217 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "pokemon": "cobblemon_create_logistics:block/magnemite_native",
+    "particle": "cobblemon_create_logistics:block/magnemite_native"
+  },
+  "elements": [
+    {
+      "from": [
+        9.855,
+        4.5600000000000005,
+        7.47
+      ],
+      "to": [
+        10.915,
+        7.74,
+        8.53
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            7.5,
+            1.0,
+            7.0,
+            4.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            7.0,
+            1.0,
+            6.5,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            6.5,
+            1.0,
+            6.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            8.0,
+            1.0,
+            7.5,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            7.0,
+            0.0,
+            6.5,
+            1.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            7.5,
+            0.0,
+            7.0,
+            1.0
+          ]
+        }
+      },
+      "name": "native_magnemite_magnet_right_0"
+    },
+    {
+      "from": [
+        10.65,
+        6.68,
+        7.47
+      ],
+      "to": [
+        13.83,
+        7.74,
+        8.53
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            10.5,
+            3.0,
+            10.0,
+            4.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            3.0,
+            8.5,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            8.5,
+            3.0,
+            8.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            12.0,
+            3.0,
+            10.5,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            2.0,
+            8.5,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            11.5,
+            2.0,
+            10.0,
+            3.0
+          ]
+        }
+      },
+      "name": "native_magnemite_magnet_right_1"
+    },
+    {
+      "from": [
+        10.65,
+        4.5600000000000005,
+        7.47
+      ],
+      "to": [
+        13.83,
+        5.62,
+        8.53
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            14.5,
+            3.0,
+            14.0,
+            4.0
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            14.0,
+            3.0,
+            12.5,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            12.5,
+            3.0,
+            12.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            16.0,
+            3.0,
+            14.5,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            14.0,
+            2.0,
+            12.5,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            15.5,
+            2.0,
+            14.0,
+            3.0
+          ]
+        }
+      },
+      "name": "native_magnemite_magnet_right_2"
+    }
+  ]
+}

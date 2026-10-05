@@ -1,0 +1,381 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "brass": "create:block/brass_block",
+    "casing": "create:block/brass_casing",
+    "wood": "minecraft:block/spruce_planks",
+    "particle": "create:block/brass_block"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "name": "brass_plate"
+    },
+    {
+      "from": [
+        2,
+        2.01,
+        2
+      ],
+      "to": [
+        14,
+        2.12,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        }
+      },
+      "name": "wood_deck"
+    },
+    {
+      "from": [
+        0,
+        2,
+        0
+      ],
+      "to": [
+        16,
+        2.25,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            2,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            2,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ]
+        }
+      },
+      "name": "north_rim"
+    },
+    {
+      "from": [
+        0,
+        2,
+        14
+      ],
+      "to": [
+        16,
+        2.25,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        }
+      },
+      "name": "south_rim"
+    },
+    {
+      "from": [
+        0,
+        2,
+        2
+      ],
+      "to": [
+        2,
+        2.25,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            2,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            15.75,
+            2,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#casing",
+          "uv": [
+            2,
+            15.75,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#casing",
+          "uv": [
+            2,
+            15.75,
+            14,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ]
+        }
+      },
+      "name": "west_rim"
+    },
+    {
+      "from": [
+        14,
+        2,
+        2
+      ],
+      "to": [
+        16,
+        2.25,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            15.75,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#casing",
+          "uv": [
+            2,
+            15.75,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#casing",
+          "uv": [
+            2,
+            15.75,
+            14,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            2,
+            16,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#casing",
+          "uv": [
+            14,
+            2,
+            16,
+            14
+          ]
+        }
+      },
+      "name": "east_rim"
+    }
+  ]
+}

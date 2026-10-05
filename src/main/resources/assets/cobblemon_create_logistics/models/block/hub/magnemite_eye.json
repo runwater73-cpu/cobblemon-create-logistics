@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "pokemon": "cobblemon_create_logistics:block/magnemite_native",
+    "particle": "cobblemon_create_logistics:block/magnemite_native"
+  },
+  "elements": [
+    {
+      "from": [
+        6.9399999999999995,
+        5.09,
+        5.8747
+      ],
+      "to": [
+        9.06,
+        7.21,
+        5.8947
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            8.0,
+            4.0,
+            9.0,
+            6.0
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            8.0,
+            4.0,
+            9.0,
+            6.0
+          ]
+        }
+      },
+      "name": "native_magnemite_eye_0"
+    }
+  ]
+}

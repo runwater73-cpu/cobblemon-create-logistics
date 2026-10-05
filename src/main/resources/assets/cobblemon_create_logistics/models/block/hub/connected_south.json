@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "casing": "create:block/brass_casing",
+    "brass": "create:block/brass_block",
+    "particle": "create:block/brass_block"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0.5,
+        15.99
+      ],
+      "to": [
+        10,
+        1.5,
+        16.02
+      ],
+      "faces": {
+        "south": {
+          "texture": "#casing",
+          "uv": [
+            6,
+            6,
+            10,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

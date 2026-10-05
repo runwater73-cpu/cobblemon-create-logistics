@@ -1,0 +1,3082 @@
+{
+  "pivots": {
+    "lid_left": [
+      0.5,
+      0.95625,
+      0.5
+    ],
+    "lid_right": [
+      0.5,
+      0.95625,
+      0.5
+    ],
+    "lift": [
+      0.5,
+      0.80625,
+      0.5
+    ],
+    "shutter_north": [
+      0.5,
+      0.69375,
+      0.034375
+    ],
+    "shutter_east": [
+      0.965625,
+      0.69375,
+      0.5
+    ],
+    "shutter_south": [
+      0.5,
+      0.69375,
+      0.965625
+    ],
+    "shutter_west": [
+      0.034375,
+      0.69375,
+      0.5
+    ],
+    "shutter_down": [
+      0.5,
+      0.03125,
+      0.5
+    ],
+    "tray_north": [
+      0.5,
+      0.2625,
+      0.15625
+    ],
+    "tray_east": [
+      0.84375,
+      0.2625,
+      0.5
+    ],
+    "tray_south": [
+      0.5,
+      0.2625,
+      0.84375
+    ],
+    "tray_west": [
+      0.15625,
+      0.2625,
+      0.5
+    ],
+    "tray_down": [
+      0.5,
+      0.06875,
+      0.5
+    ]
+  },
+  "cargoAnchor": [
+    0.5,
+    0.81875,
+    0.5
+  ],
+  "clips": {
+    "idle": {
+      "length": 2,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 2,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        }
+      }
+    },
+    "courier_pickup": {
+      "length": 1.1,
+      "tracks": {
+        "lid_left": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.1,
+              "value": [
+                0.0,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.25,
+              "value": [
+                -0.19375,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                -0.19375,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.85,
+              "value": [
+                0.0,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1.1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "lid_right": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.1,
+              "value": [
+                0.0,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.25,
+              "value": [
+                0.19375,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.19375,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.85,
+              "value": [
+                0.0,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1.1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "lift": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.25,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.4,
+              "value": [
+                0.0,
+                0.15625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.0,
+                0.15625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.75,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1.1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "cargo": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.25,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.4,
+              "value": [
+                0.0,
+                0.15625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.0,
+                0.15625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1.1,
+              "value": [
+                0.0,
+                0.15625,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.25,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.4,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 1.1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        }
+      }
+    },
+    "courier_receive": {
+      "length": 1.1,
+      "tracks": {
+        "lid_left": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.1,
+              "value": [
+                0.0,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.25,
+              "value": [
+                -0.19375,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                -0.19375,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.85,
+              "value": [
+                0.0,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1.1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "lid_right": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.1,
+              "value": [
+                0.0,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.25,
+              "value": [
+                0.19375,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.19375,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.85,
+              "value": [
+                0.0,
+                -0.090625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1.1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "lift": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.25,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.4,
+              "value": [
+                0.0,
+                0.15625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.0,
+                0.15625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.75,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1.1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "cargo": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.15625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.4,
+              "value": [
+                0.0,
+                0.15625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.75,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 1.1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.4,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.75,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 1.1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        }
+      }
+    },
+    "packager_input_north": {
+      "length": 0.55,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        },
+        "shutter_north": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "tray_north": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                0.0,
+                -0.08125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.0,
+                0.0,
+                -0.08125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        }
+      }
+    },
+    "packager_output_north": {
+      "length": 0.55,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        },
+        "shutter_north": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "tray_north": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                0.0,
+                -0.08125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.0,
+                0.0,
+                -0.08125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        }
+      }
+    },
+    "packager_input_east": {
+      "length": 0.55,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        },
+        "shutter_east": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                -0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                -0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                -0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                -0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "tray_east": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.08125,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.08125,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        }
+      }
+    },
+    "packager_output_east": {
+      "length": 0.55,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        },
+        "shutter_east": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                -0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                -0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                -0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                -0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "tray_east": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.08125,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.08125,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        }
+      }
+    },
+    "packager_input_south": {
+      "length": 0.55,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        },
+        "shutter_south": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                -0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                0.0,
+                -0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.0,
+                0.0,
+                -0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                -0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "tray_south": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                -0.0,
+                0.0,
+                0.08125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                -0.0,
+                0.0,
+                0.08125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        }
+      }
+    },
+    "packager_output_south": {
+      "length": 0.55,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        },
+        "shutter_south": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                -0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                0.0,
+                -0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.0,
+                0.0,
+                -0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                -0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "tray_south": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                -0.0,
+                0.0,
+                0.08125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                -0.0,
+                0.0,
+                0.08125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        }
+      }
+    },
+    "packager_input_west": {
+      "length": 0.55,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        },
+        "shutter_west": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "tray_west": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                -0.08125,
+                0.0,
+                -0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                -0.08125,
+                0.0,
+                -0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        }
+      }
+    },
+    "packager_output_west": {
+      "length": 0.55,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        },
+        "shutter_west": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.09375,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "tray_west": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                -0.08125,
+                0.0,
+                -0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                -0.08125,
+                0.0,
+                -0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        }
+      }
+    },
+    "packager_input_down": {
+      "length": 0.55,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        },
+        "shutter_down": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                0.0625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.0,
+                0.0625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.08,
+                1.0,
+                0.08
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.08,
+                1.0,
+                0.08
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "tray_down": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                -0.046875,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.0,
+                -0.046875,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        }
+      }
+    },
+    "packager_output_down": {
+      "length": 0.55,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        },
+        "shutter_down": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                0.0625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.0,
+                0.0625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0625,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.08,
+                1.0,
+                0.08
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.08,
+                1.0,
+                0.08
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "tray_down": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                -0.046875,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.32,
+              "value": [
+                0.0,
+                -0.046875,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.47,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.55,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ]
+        }
+      }
+    },
+    "side_input_preview": {
+      "length": 0.6,
+      "tracks": {
+        "shutter_north": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.4,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.5,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.4,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.5,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "cargo": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                -0.5375,
+                -0.675
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                -0.5375,
+                -0.675
+              ],
+              "step": false
+            },
+            {
+              "time": 0.38,
+              "value": [
+                0.0,
+                -0.5375,
+                -0.2125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.0,
+                -0.5375,
+                -0.2125
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.38,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        }
+      }
+    },
+    "side_output_preview": {
+      "length": 0.6,
+      "tracks": {
+        "shutter_north": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.4,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.5,
+              "value": [
+                0.0,
+                0.0,
+                0.09375
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.08,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.4,
+              "value": [
+                1.0,
+                0.08,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.5,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": false
+            }
+          ]
+        },
+        "cargo": {
+          "position": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                -0.5375,
+                -0.2125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.18,
+              "value": [
+                0.0,
+                -0.5375,
+                -0.2125
+              ],
+              "step": false
+            },
+            {
+              "time": 0.38,
+              "value": [
+                0.0,
+                -0.5375,
+                -0.675
+              ],
+              "step": false
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.0,
+                -0.5375,
+                -0.675
+              ],
+              "step": false
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.18,
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.38,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 0.6,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        }
+      }
+    },
+    "assembly_exploded": {
+      "length": 1,
+      "tracks": {
+        "cargo": {
+          "scale": [
+            {
+              "time": 0,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            },
+            {
+              "time": 1,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "step": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

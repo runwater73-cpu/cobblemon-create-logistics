@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "cobblemon_create_logistics:block/cobblemon_hub" },
+    "facing=east": { "model": "cobblemon_create_logistics:block/cobblemon_hub" },
+    "facing=south": { "model": "cobblemon_create_logistics:block/cobblemon_hub" },
+    "facing=west": { "model": "cobblemon_create_logistics:block/cobblemon_hub" }
+  }
+}

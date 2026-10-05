@@ -1,0 +1,148 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "pokemon": "cobblemon_create_logistics:block/magnemite_native",
+    "particle": "cobblemon_create_logistics:block/magnemite_native"
+  },
+  "elements": [
+    {
+      "from": [
+        6.0125,
+        4.03,
+        4.555
+      ],
+      "to": [
+        7.0725,
+        5.09,
+        5.085
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            8.0,
+            6.5,
+            8.25,
+            7.5
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            8.25,
+            6.5,
+            8.75,
+            7.5
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            8.75,
+            6.5,
+            9.0,
+            7.5
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            9.0,
+            6.5,
+            9.5,
+            7.5
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            8.25,
+            6.0,
+            8.75,
+            6.5
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            8.75,
+            6.0,
+            9.25,
+            6.5
+          ]
+        }
+      },
+      "name": "native_magnemite_nail_left_rotation_0"
+    },
+    {
+      "from": [
+        6.2775,
+        4.295,
+        5.085
+      ],
+      "to": [
+        6.8075,
+        4.825,
+        6.145
+      ],
+      "faces": {
+        "west": {
+          "texture": "#pokemon",
+          "uv": [
+            10.0,
+            5.0,
+            10.5,
+            5.5
+          ]
+        },
+        "north": {
+          "texture": "#pokemon",
+          "uv": [
+            10.5,
+            5.0,
+            10.75,
+            5.5
+          ]
+        },
+        "east": {
+          "texture": "#pokemon",
+          "uv": [
+            10.75,
+            5.0,
+            11.25,
+            5.5
+          ]
+        },
+        "south": {
+          "texture": "#pokemon",
+          "uv": [
+            11.25,
+            5.0,
+            11.5,
+            5.5
+          ]
+        },
+        "up": {
+          "texture": "#pokemon",
+          "uv": [
+            10.5,
+            4.0,
+            10.75,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "#pokemon",
+          "uv": [
+            10.75,
+            4.0,
+            11.0,
+            5.0
+          ]
+        }
+      },
+      "name": "native_magnemite_nail_left_rotation_1"
+    }
+  ]
+}

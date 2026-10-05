@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "cobblemon_create_logistics:item/cobblemon_hub_linker"
+  }
+}
